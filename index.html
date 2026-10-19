@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="ja"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>サポート | BottleShelf</title><style>:root{--bg:#f6f7fb;--panel:#fff;--line:#dce1ee;--text:#141a2e;--dim:#4a5470;--accent:#1f5fd1}
+@media (prefers-color-scheme: dark){:root{--bg:#080c18;--panel:#121a30;--line:#26304d;--text:#e8ecf6;--dim:#a3adc6;--accent:#7aa8ff}}
+*{box-sizing:border-box}
+body{background:var(--bg);color:var(--text);margin:0;line-height:1.9;font-size:15px;font-family:"Hiragino Sans","Hiragino Kaku Gothic ProN",system-ui,sans-serif}
+main{max-width:760px;margin:0 auto;padding:40px 16px 80px}
+h1{font-size:24px;line-height:1.4;margin:0 0 16px}
+h2{font-size:16px;margin:28px 0 6px;color:var(--accent)}
+p,li{margin:0 0 8px;overflow-wrap:anywhere}
+ul{padding-left:20px;margin:0 0 8px}
+a{color:var(--accent)}
+nav{margin-top:40px;padding-top:16px;border-top:1px solid var(--line);font-size:13px;color:var(--dim)}
+nav a{margin-right:16px}</style></head>
+<body><main>
+<h1>BottleShelf サポート</h1>
+<p>BottleShelf は、手持ちのウイスキーなどのボトルを棚として記録し、テイスティングの記録をつける iPhone と Android のアプリです。ボトルのラベルを撮影すると、銘柄の候補を出して登録を助けます。</p>
+<h2>お問い合わせ</h2>
+<p>不具合、ご意見、データについてのご相談は、下のメールアドレスまでご連絡ください。</p>
+<p><a href="mailto:m.ryota1222@gmail.com">m.ryota1222@gmail.com</a></p>
+<h2>よくある質問</h2>
+<ul>
+<li><b>ボトルの記録</b>: 銘柄、蒸留所、産地、度数、容量、購入日・購入店・購入価格、開栓の状態、残量、メモを記録できます。記録は端末の中に保存し、運営者のサーバーには送りません。</li>
+<li><b>写真でボトルを認識するしくみ</b>: カメラで撮った写真は、位置情報を取り除いて縮小したうえで、銘柄の候補を出すために認識の中継サーバーへ送ります。中継サーバーは、写真に写った文字を読み取るために Anthropic, PBC の AI(Claude)へ画像を渡します。候補を返したあと、写真そのものは中継サーバーにも残しません。</li>
+<li><b>テイスティングの記録</b>: 日付、評価、香り・味・余韻、飲み方、写真を記録できます。これも端末の中にだけ保存します。</li>
+<li><b>CSV の書き出しと取り込み</b>: ボトルとテイスティングの記録を1つの CSV ファイル(表計算ソフトで開けるファイル)に書き出せます。写真は書き出しに含みません。</li>
+<li><b>データを消すには</b>: アプリの「設定」から「すべてのデータを削除」を押してください。ボトルとテイスティングの記録、写真、設定がすべて消えます。アプリを削除しても端末の中のデータは消えます。</li>
+<li><b>機種を替えたときは</b>: 記録は端末の中にあるため、iCloud または Google のバックアップから新しい機種へ移してください。購入は「購入を復元」で戻せます。</li>
+</ul>
+<p>運営者: Ryota Masuda</p>
+<nav><a href="index.html">サポート</a><a href="terms.html">利用規約</a><a href="privacy.html">プライバシーポリシー</a></nav></main></body></html>
